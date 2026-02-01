@@ -1,0 +1,26 @@
+:root {
+    --fondo-negro: #121212;
+    --gris-oscuro: #1f1f1f;
+    --azul-acento: #1c437e; /* Azul Bootstrap */
+    --texto-claro: #f8f9fa;
+}
+body {
+    background-color: var(--fondo-negro);
+    color: var(--texto-claro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 1s ease; /* Para el efecto de cambio de tema */
+}.navbar {
+    background-color: var(--gris-oscuro) !important;
+    border-bottom: 2px solid var(--azul-acento);
+}
+section {
+    background-color: var(--gris-oscuro);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--azul-acento);
+}
+header img {
+    border: 3px solid var(--azul-acento);
+    transition: transform 0.3s;
+}
